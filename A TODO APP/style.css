@@ -1,0 +1,37 @@
+.container-1{
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    
+}
+.flex-1{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.flex-1 div{
+    padding: 10px;/*the button are the div that are found in the flexbox  container*/
+    border: 1px solid black;
+    align-items: center;
+    
+
+}
+body{
+    background-color:black;
+    background-image: url('kinfe.jpg');
+}
+.text{
+    color: green;
+
+}
+#addText{
+    position:relative;
+}
+.own{
+   
+    font-weight: bolder;
+}
